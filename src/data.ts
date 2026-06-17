@@ -116,7 +116,7 @@ export const SERVICES: ServiceCard[] = [
     subtitle: "Reconstruindo pontes",
     tag: "Relacionamentos",
     description: "Quando o orgulho afasta ou o diálogo parece em crise. Uma intervenção clínica acolhedora focada em restabelecer a comunicação saudável e reacender o amor maduro.",
-    image: "/src/assets/images/couples_therapy_1779612827442.png",
+    image: "/images/couples_therapy.png",
     whatsappMsg: "Olá, Maria! Gostaria de obter informações sobre o funcionamento do atendimento de Terapia de Casal."
   },
   {
@@ -125,7 +125,7 @@ export const SERVICES: ServiceCard[] = [
     subtitle: "Tratamento estruturado p/ ansiedade",
     tag: "Clínica Geral",
     description: "Para lidar de forma científica e assertiva com crises de ansiedade, sobrecarga profissional (Burnout), transições de carreira desafiadoras e regulação das emoções profundas.",
-    image: "/src/assets/images/clinic_office_1779612846428.png",
+    image: "/images/clinic_office.png",
     whatsappMsg: "Olá, Maria! Gostaria de receber informações sobre o atendimento clínico para Adultos com queixa de ansiedade ou estresse."
   }
 ];

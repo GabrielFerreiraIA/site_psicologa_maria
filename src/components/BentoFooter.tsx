@@ -10,11 +10,11 @@ export default function BentoFooter() {
     window.open(`https://wa.me/5511912223346?text=${textMsg}`, "_blank");
   };
 
-  const avatars = [
-    "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150&h=150",
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150&h=150",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150&h=150",
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=150&h=150"
+  const avatarInitials = [
+    { initials: "AM", color: "#C58874" },
+    { initials: "SG", color: "#7A9E8A" },
+    { initials: "JB", color: "#B89A7A" },
+    { initials: "LB", color: "#8A7EA0" },
   ];
 
   return (
@@ -98,14 +98,14 @@ export default function BentoFooter() {
             {/* Micro proof stack overlay */}
             <div className="pt-5 border-t border-white/10 flex items-center space-x-3.5 max-w-sm">
               <div className="flex -space-x-2">
-                {avatars.map((url, i) => (
-                  <img
+                {avatarInitials.map((av, i) => (
+                  <div
                     key={i}
-                    src={url}
-                    alt={`Mulher acompanhada ${i + 1}`}
-                    referrerPolicy="no-referrer"
-                    className="w-[32px] h-[32px] rounded-full border-2 border-[#3A473D] object-cover bg-stone-300"
-                  />
+                    className="w-[32px] h-[32px] rounded-full border-2 border-[#3A473D] flex items-center justify-center shrink-0 select-none"
+                    style={{ backgroundColor: av.color }}
+                  >
+                    <span className="font-sans text-[9px] font-bold text-white tracking-wide">{av.initials}</span>
+                  </div>
                 ))}
               </div>
               <span className="font-sans text-[12px] text-[#F9F7F3]/75 font-[300] leading-tight">
