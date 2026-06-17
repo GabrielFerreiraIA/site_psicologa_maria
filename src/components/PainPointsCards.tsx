@@ -21,7 +21,7 @@ export default function PainPointsCards() {
   };
 
   return (
-    <section id="sobre" className="relative py-16 md:py-20 px-6 md:px-12 bg-[#EDE5DB] border-b border-beige-gray/40 overflow-hidden">
+    <section id="dores" className="relative py-16 md:py-20 px-6 md:px-12 bg-[#EDE5DB] border-b border-beige-gray/40 overflow-hidden">
 
       {/* Textura de papel/linho no fundo */}
       <div

@@ -8,6 +8,7 @@ import { motion, useScroll, useSpring } from "motion/react";
 import Header from "./components/Header";
 import HeroImmersive from "./components/HeroImmersive";
 import PainPointsCards from "./components/PainPointsCards";
+import AboutSection from "./components/AboutSection";
 import ApproachReveal from "./components/ApproachReveal";
 import ApproachTabSection from "./components/ApproachTabSection";
 import ServicesBento from "./components/ServicesBento";
@@ -37,6 +38,9 @@ export default function App() {
 
         {/* Empathy pain validate cards */}
         <PainPointsCards />
+
+        {/* About section — who is Maria Soares */}
+        <AboutSection />
 
         {/* Approach methods clinical step nodes */}
         <ApproachReveal />
