@@ -38,7 +38,7 @@ export default function PainPointsCards() {
 
       {/* Flor inclinada — fica atrás dos cards (z-0), rotacionada e maior */}
       <div
-        className="absolute right-[-60px] md:right-[-80px] bottom-[-60px] w-[340px] md:w-[500px] lg:w-[580px] pointer-events-none select-none z-0"
+        className="absolute right-[-60px] md:right-[-80px] bottom-[-60px] w-[180px] sm:w-[280px] md:w-[500px] lg:w-[580px] pointer-events-none select-none z-0"
         style={{ transform: "rotate(-18deg)", transformOrigin: "bottom right" }}
       >
         <img
@@ -80,13 +80,13 @@ export default function PainPointsCards() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-80px" }}
-          className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 cursor-default relative z-10"
+          className="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-8 lg:gap-12 cursor-default relative z-10"
         >
           {/* Card 1 */}
           <motion.div
             variants={cardVariants}
             whileHover={{ y: -5 }}
-            className="glass-card flex items-start gap-6 p-8 md:p-9 rounded-2xl transition-all duration-500 cursor-default"
+            className="glass-card flex items-start gap-4 md:gap-6 p-5 md:p-8 lg:p-9 rounded-2xl transition-all duration-500 cursor-default"
             style={{
               background: "rgba(255,255,255,0.10)",
               backdropFilter: "blur(16px) saturate(160%)",
@@ -98,8 +98,8 @@ export default function PainPointsCards() {
               boxShadow: "0 8px 32px rgba(186,126,106,0.08), inset 0 1px 0 rgba(255,255,255,0.55)",
             }}
           >
-            <div className="w-[82px] h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
-              <img src="/svgs/s2-icone1.svg" alt="" className="w-[62px] h-[62px] object-contain" />
+            <div className="w-[62px] h-[62px] md:w-[82px] md:h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
+              <img src="/svgs/s2-icone1.svg" alt="" className="w-[46px] h-[46px] md:w-[62px] md:h-[62px] object-contain" />
             </div>
             <div className="flex flex-col">
               <h3 className="font-serif text-[20px] font-normal leading-tight text-espresso mb-3">
@@ -116,7 +116,7 @@ export default function PainPointsCards() {
           <motion.div
             variants={cardVariants}
             whileHover={{ y: -5 }}
-            className="glass-card flex items-start gap-6 p-8 md:p-9 rounded-2xl transition-all duration-500 cursor-default"
+            className="glass-card flex items-start gap-4 md:gap-6 p-5 md:p-8 lg:p-9 rounded-2xl transition-all duration-500 cursor-default"
             style={{
               background: "rgba(255,255,255,0.10)",
               backdropFilter: "blur(16px) saturate(160%)",
@@ -128,8 +128,8 @@ export default function PainPointsCards() {
               boxShadow: "0 8px 32px rgba(186,126,106,0.08), inset 0 1px 0 rgba(255,255,255,0.55)",
             }}
           >
-            <div className="w-[82px] h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
-              <img src="/svgs/s2-icone2.svg" alt="" className="w-[62px] h-[62px] object-contain" />
+            <div className="w-[62px] h-[62px] md:w-[82px] md:h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
+              <img src="/svgs/s2-icone2.svg" alt="" className="w-[46px] h-[46px] md:w-[62px] md:h-[62px] object-contain" />
             </div>
             <div className="flex flex-col">
               <h3 className="font-serif text-[20px] font-normal leading-tight text-espresso mb-3">
@@ -146,7 +146,7 @@ export default function PainPointsCards() {
           <motion.div
             variants={cardVariants}
             whileHover={{ y: -5 }}
-            className="glass-card flex items-start gap-6 p-8 md:p-9 rounded-2xl transition-all duration-500 cursor-default"
+            className="glass-card flex items-start gap-4 md:gap-6 p-5 md:p-8 lg:p-9 rounded-2xl transition-all duration-500 cursor-default"
             style={{
               background: "rgba(255,255,255,0.10)",
               backdropFilter: "blur(16px) saturate(160%)",
@@ -158,8 +158,8 @@ export default function PainPointsCards() {
               boxShadow: "0 8px 32px rgba(186,126,106,0.08), inset 0 1px 0 rgba(255,255,255,0.55)",
             }}
           >
-            <div className="w-[82px] h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
-              <img src="/svgs/s2-icone3.svg" alt="" className="w-[62px] h-[62px] object-contain" />
+            <div className="w-[62px] h-[62px] md:w-[82px] md:h-[82px] rounded-full bg-[#EFE9E0]/60 flex items-center justify-center shrink-0 border border-white/50 overflow-hidden shadow-[inset_0_1px_0_rgba(255,255,255,0.7)]">
+              <img src="/svgs/s2-icone3.svg" alt="" className="w-[46px] h-[46px] md:w-[62px] md:h-[62px] object-contain" />
             </div>
             <div className="flex flex-col">
               <h3 className="font-serif text-[20px] font-normal leading-tight text-espresso mb-3">

@@ -85,7 +85,7 @@ export default function ApproachTabSection() {
             <button
               key={item.id}
               onClick={() => handleTabChange(item.id)}
-              className={`flex-1 text-center font-serif text-sm py-4 border-b-2 transition-all duration-300 relative focus:outline-none ${
+              className={`flex-1 text-center font-serif text-[11px] sm:text-sm py-3 sm:py-4 border-b-2 transition-all duration-300 relative focus:outline-none leading-tight px-1 ${
                 activeTabId === item.id
                   ? "border-terracota text-terracota font-medium"
                   : "border-transparent text-espresso/45 hover:text-espresso"

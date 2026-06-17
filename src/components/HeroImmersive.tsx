@@ -23,7 +23,7 @@ export default function HeroImmersive() {
       <div className="absolute right-[-10%] top-[15%] w-[38rem] h-[38rem] rounded-full bg-terracota/5 blur-[120px] pointer-events-none" />
       <div className="absolute left-[-5%] bottom-[-5%] w-[28rem] h-[28rem] rounded-full bg-sage/5 blur-[90px] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center my-auto">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-2 lg:gap-12 items-center my-auto">
         
         {/* Left column: High-end clinical messaging & CTAs */}
         <div className="lg:col-span-7 flex flex-col items-start z-10 text-left pr-0 lg:pr-6">
@@ -43,7 +43,7 @@ export default function HeroImmersive() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            className="font-serif text-[40px] sm:text-[50px] md:text-[58px] lg:text-[62px] xl:text-[68px] font-medium leading-[1.05] text-espresso tracking-tight max-w-2xl"
+            className="font-serif text-[30px] sm:text-[44px] md:text-[58px] lg:text-[62px] xl:text-[68px] font-medium leading-[1.08] text-espresso tracking-tight max-w-2xl"
           >
             Para mulheres que <br />
             cansaram de sustentar <br />
@@ -75,7 +75,7 @@ export default function HeroImmersive() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.82, ease: [0.22, 1, 0.36, 1] }}
-            className="flex flex-col sm:flex-row items-start sm:items-center gap-6 w-full sm:w-auto mb-10"
+            className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 w-full sm:w-auto mb-6 md:mb-10"
           >
             {/* Primary CTA button with circular arrow */}
             <button
@@ -105,7 +105,7 @@ export default function HeroImmersive() {
         </div>
 
         {/* Right column: Image with asymmetrical organic framing and layered overlapping elements */}
-        <div className="lg:col-span-5 relative flex justify-center items-center px-4 lg:px-0 mt-8 lg:mt-0 select-none">
+        <div className="lg:col-span-5 relative flex justify-center items-center px-4 lg:px-0 mt-2 lg:mt-0 select-none">
           
           {/* Portrait of Dra. Maria Soares without frame (pre-cropped as requested) - slightly enlarged */}
           <motion.div
@@ -116,12 +116,12 @@ export default function HeroImmersive() {
               scale:   { duration: 1.6, ease: [0.22, 1, 0.36, 1] },
               y: { duration: 6, ease: "easeInOut", repeat: Infinity, repeatType: "loop", delay: 1.8 }
             }}
-            className="w-full max-w-[420px] md:max-w-[470px] lg:max-w-none lg:w-[490px] xl:w-[530px] relative z-0 flex justify-center items-end"
+            className="w-full max-w-[280px] sm:max-w-[380px] md:max-w-[470px] lg:max-w-none lg:w-[490px] xl:w-[530px] relative z-0 flex justify-center items-end"
           >
             <img
               src="https://res.cloudinary.com/dxpfoolyp/image/upload/q_auto/f_auto/v1779619553/Untitled_design_2_artb5k.png"
               alt="Dra. Maria Soares, Psicóloga Clínica TCC"
-              className="w-full h-auto max-h-[640px] object-contain transition-all duration-1000 pointer-events-none"
+              className="w-full h-auto max-h-[260px] sm:max-h-[380px] md:max-h-[560px] lg:max-h-[640px] object-contain transition-all duration-1000 pointer-events-none"
               referrerPolicy="no-referrer"
             />
           </motion.div>
@@ -130,18 +130,18 @@ export default function HeroImmersive() {
 
       </div>
 
-      {/* Down arrow scroll helper precisely as illustrated in bottom margin */}
-      <div className="flex justify-between items-center max-w-7xl w-full border-t border-beige-gray/30 pt-5 mt-6">
+      {/* Down arrow scroll helper */}
+      <div className="flex justify-between items-center max-w-7xl w-full border-t border-beige-gray/30 pt-4 mt-4 md:mt-6">
         <div className="flex items-center text-espresso/70 hover:text-espresso transition-colors select-none">
           <MouseIcon />
           <span className="font-mono text-[9.5px] md:text-[10px] tracking-[0.25em] uppercase font-bold text-espresso/75">
             ROLAR PARA EXPLORAR
           </span>
         </div>
-        
-        <a 
-          href="#sobre" 
-          className="group flex items-center space-x-2 font-sans text-xs tracking-widest text-[#BA7E6A] uppercase font-bold hover:text-espresso transition-colors duration-300"
+
+        <a
+          href="#sobre"
+          className="group hidden sm:flex items-center space-x-2 font-sans text-xs tracking-widest text-[#BA7E6A] uppercase font-bold hover:text-espresso transition-colors duration-300"
         >
           <span className="animate-bounce inline-block text-[15px]">↓</span>
           <span>Role para explorar seu momento</span>

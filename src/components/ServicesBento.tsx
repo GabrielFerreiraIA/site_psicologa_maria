@@ -43,7 +43,7 @@ export default function ServicesBento() {
             initial="rest"
             animate="rest"
             onClick={() => setSelectedService(SERVICES[0])}
-            className="md:col-span-7 group relative overflow-hidden rounded-3xl border border-beige-gray/50 bg-[#E5E0D8]/40 h-[380px] lg:h-[420px] flex flex-col justify-end p-8 md:p-10 cursor-pointer shadow-sm transition-all duration-300"
+            className="md:col-span-7 group relative overflow-hidden rounded-3xl border border-beige-gray/50 bg-[#E5E0D8]/40 h-[260px] md:h-[380px] lg:h-[420px] flex flex-col justify-end p-6 md:p-10 cursor-pointer shadow-sm transition-all duration-300"
           >
             {/* Background absolute Image with zoom scaling */}
             <motion.div
@@ -91,7 +91,7 @@ export default function ServicesBento() {
             initial="rest"
             animate="rest"
             onClick={() => setSelectedService(SERVICES[1])}
-            className="md:col-span-5 group relative overflow-hidden rounded-3xl border border-beige-gray/50 bg-[#E5E0D8]/40 h-[380px] lg:h-[420px] flex flex-col justify-end p-8 cursor-pointer shadow-sm transition-all duration-300"
+            className="md:col-span-5 group relative overflow-hidden rounded-3xl border border-beige-gray/50 bg-[#E5E0D8]/40 h-[240px] md:h-[380px] lg:h-[420px] flex flex-col justify-end p-6 md:p-8 cursor-pointer shadow-sm transition-all duration-300"
           >
             {/* Background Absolute Image */}
             <motion.div
@@ -200,7 +200,7 @@ export default function ServicesBento() {
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95, y: 15 }}
                 transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                className="relative bg-sand border border-beige-gray/50 rounded-3xl shadow-2xl w-full max-w-2xl overflow-hidden z-10 text-espresso"
+                className="relative bg-sand border border-beige-gray/50 rounded-3xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto z-10 text-espresso"
               >
                 
                 {/* Header Image Header on top inside modal */}
