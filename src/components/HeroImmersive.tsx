@@ -6,7 +6,7 @@ export default function HeroImmersive() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Vi o seu site e me identifiquei muito com a sua abordagem de psicoterapia para mulheres sobrecarregadas. Gostaria de receber mais informações sobre o atendimento clínico."
     );
-    window.open(`https://wa.me/5511912223346?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511956307990?text=${textMsg}`, "_blank");
   };
 
   const MouseIcon = () => (
@@ -119,7 +119,7 @@ export default function HeroImmersive() {
             className="w-full max-w-[280px] sm:max-w-[380px] md:max-w-[470px] lg:max-w-none lg:w-[490px] xl:w-[530px] relative z-0 flex justify-center items-end"
           >
             <img
-              src="https://res.cloudinary.com/dxpfoolyp/image/upload/q_auto/f_auto/v1779619553/Untitled_design_2_artb5k.png"
+              src="https://res.cloudinary.com/dxpfoolyp/image/upload/v1782614175/Foto_Maria_Hero_xtkdz0.webp"
               alt="Dra. Maria Soares, Psicóloga Clínica TCC"
               className="w-full h-auto max-h-[260px] sm:max-h-[380px] md:max-h-[560px] lg:max-h-[640px] object-contain transition-all duration-1000 pointer-events-none"
               referrerPolicy="no-referrer"

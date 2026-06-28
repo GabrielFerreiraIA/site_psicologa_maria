@@ -14,7 +14,7 @@ export default function AboutSection() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Li sobre você no site e gostaria de agendar uma conversa inicial."
     );
-    window.open(`https://wa.me/5511912223346?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511956307990?text=${textMsg}`, "_blank");
   };
 
   return (
@@ -53,7 +53,7 @@ export default function AboutSection() {
 
             {/* Foto */}
             <img
-              src="https://res.cloudinary.com/dxpfoolyp/image/upload/q_auto/f_auto/v1781696541/foto_maria_v5yqmo.jpg"
+              src="https://res.cloudinary.com/dxpfoolyp/image/upload/v1781696541/foto_maria_v5yqmo.jpg"
               alt="Maria Soares, Psicóloga Clínica TCC"
               referrerPolicy="no-referrer"
               className="relative z-10 w-full h-auto rounded-3xl object-cover shadow-xl aspect-[4/5] object-top"

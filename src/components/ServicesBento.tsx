@@ -9,7 +9,7 @@ export default function ServicesBento() {
 
   const handleWhatsappRoute = (service: ServiceCard) => {
     const textMsg = encodeURIComponent(service.whatsappMsg);
-    window.open(`https://wa.me/5511912223346?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511956307990?text=${textMsg}`, "_blank");
   };
 
   return (

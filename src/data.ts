@@ -159,7 +159,7 @@ export const OFFICE_GALLERY = {
   buildingName: "Chronos Coworking - Osasco/SP",
   googleMapsUrl: "https://maps.google.com/?q=Rua+Narciso+Sturlini,+62+Osasco",
   instagramUrl: "https://instagram.com/psimariasoares",
-  phone: "(11) 91222-3346",
+  phone: "(11) 95630-7990",
   email: "psimariasoaresonline@gmail.com",
   crp: "CRP 06/151465"
 };
