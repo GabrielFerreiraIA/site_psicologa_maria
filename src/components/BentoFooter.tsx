@@ -7,7 +7,7 @@ export default function BentoFooter() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Cheguei ao fim da página e gostaria de dar esse primeiro passo agendando uma conversa clínica inicial com foco em TCC."
     );
-    window.open(`https://wa.me/5511956307990?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
   };
 
   const avatarInitials = [
@@ -239,7 +239,7 @@ export default function BentoFooter() {
             </h5>
             <div className="space-y-2 font-sans text-[12.5px] font-[300] text-white/70">
               <p className="hover:text-[#BA7E6A] transition-colors cursor-default select-all">
-                (11) 95630-7990
+                (11) 94228-8846
               </p>
               <p className="hover:text-[#BA7E6A] transition-colors cursor-default select-all break-all">
                 psimariasoaresonline@gmail.com
