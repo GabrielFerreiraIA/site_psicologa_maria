@@ -14,7 +14,7 @@ export default function AboutSection() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Li sobre você no site e gostaria de agendar uma conversa inicial."
     );
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   return (

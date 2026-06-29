@@ -14,7 +14,7 @@ export default function Header() {
 
   const handleWhatsappCTA = () => {
     const textMsg = encodeURIComponent("Olá, Maria! Vi o seu site e gostaria de saber as informações sobre disponibilidade e agendamento de consulta.");
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   return (

@@ -7,7 +7,7 @@ export default function BentoFooter() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Cheguei ao fim da página e gostaria de dar esse primeiro passo agendando uma conversa clínica inicial com foco em TCC."
     );
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   const avatarInitials = [

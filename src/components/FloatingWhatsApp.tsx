@@ -14,7 +14,7 @@ export default function FloatingWhatsApp() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Vim pelo seu site e gostaria de saber mais sobre o atendimento. Poderia me ajudar com mais informações?"
     );
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   return (

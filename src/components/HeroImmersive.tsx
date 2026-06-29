@@ -6,7 +6,7 @@ export default function HeroImmersive() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Vi o seu site e me identifiquei muito com a sua abordagem de psicoterapia para mulheres sobrecarregadas. Gostaria de receber mais informações sobre o atendimento clínico."
     );
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   const MouseIcon = () => (

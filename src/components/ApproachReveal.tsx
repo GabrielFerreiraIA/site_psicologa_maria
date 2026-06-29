@@ -30,7 +30,7 @@ export default function ApproachReveal() {
     const textMsg = encodeURIComponent(
       "Olá, Maria! Li sobre o seu método de TCC e gostaria de agendar uma consulta ou entender melhor como iniciar a psicoterapia."
     );
-    window.open(`https://wa.me/551194228846?text=${textMsg}`, "_blank");
+    window.open(`https://wa.me/5511942288846?text=${textMsg}`, "_blank");
   };
 
   return (
